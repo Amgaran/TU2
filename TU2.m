@@ -1,4 +1,4 @@
-i = 6; %% введи свой номер здесь 
+i = 6; %% enter your в„– of var here
  
 A = [0 1; (i/2)^2 0]; 
 B = [0; 1]; 
@@ -9,6 +9,6 @@ N = 0;
 
 X0 = [1; 5+i];
  
-[K, P, e] = lqr(A, B, Q, R, N) %% выдает коэф К1 и К2 и матрицу P
+[K, P, e] = lqr(A, B, Q, R, N) %% matrix K and P
 
-J_min = X0' * P * X0 %% выдает минимум функционала
+J_min = X0' * P * X0 %% min of func
